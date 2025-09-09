@@ -3,7 +3,7 @@ Breast Cancer Classification Project
 This project predicts whether a breast tumor is malignant or benign using the Breast Cancer Wisconsin dataset.
 Overview
 This project demonstrates the complete machine learning lifecycle, from data exploration to model deployment. I started by performing a thorough Exploratory Data Analysis (EDA) to understand the dataset's features, followed by preprocessing steps like data scaling.
-I trained two classification models: a baseline Logistic Regression and a more powerful Random Forest Classifier. The Random Forest model proved to be highly effective, achieving an accuracy of approximately 96% and an outstanding ROC-AUC score of 0.99. This impressive performance highlights its ability to accurately distinguish between malignant and benign tumors.
+I trained two classification models: a baseline Logistic Regression and a more powerful Random Forest Classifier. The Random Forest model proved to be highly effective, achieving an accuracy of approximately 96% and an outstanding ROC-AUC score of 0.95. This impressive performance highlights its ability to accurately distinguish between malignant and benign tumors.
 Key Components
 project.ipynb: A Jupyter Notebook that documents the entire workflow, from data loading to model evaluation.
 inference_demo.py: A Python script that shows how to use the saved models to make predictions on new data.
