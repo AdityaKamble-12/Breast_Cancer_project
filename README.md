@@ -7,7 +7,7 @@
 ## Highlights
 - Cleaned & analyzed tabular medical data (30 numeric features).
 - Trained **Logistic Regression** (baseline) and **Random Forest** (final model).
-- Achieved **Test Accuracy (RF): 0.947** and **ROC-AUC (RF): 0.993**.
+- Achieved **Test Accuracy (RF): 0.947** and **ROC-AUC (RF): 0.953**.
 - Visualized **confusion matrices**, **ROC curves**, and **feature importance**.
 - Saved trained model for reuse.
 
@@ -46,14 +46,14 @@ Python, pandas, scikit-learn, matplotlib, joblib
   - Precision: 0.9583
   - Recall: 0.9583
   - F1-score: 0.9583
-  - ROC-AUC: 0.9927
+  - ROC-AUC: 0.9527
 
 - **Logistic Regression**
   - Accuracy: 0.9825
   - Precision: 0.9861
   - Recall: 0.9861
   - F1-score: 0.9861
-  - ROC-AUC: 0.9954
+  - ROC-AUC: 0.95
 
 ## Files
 - `breast_cancer_rf.pkl` (Random Forest)
@@ -62,6 +62,6 @@ Python, pandas, scikit-learn, matplotlib, joblib
 - This README was auto-generated on: 2025-09-08 18:58:08
 
 ## Resume Bullet (Paste this)
-- Built a **Random Forest classifier** on the Breast Cancer Wisconsin dataset; performed **EDA and preprocessing**, and compared against a **Logistic Regression baseline**. Achieved **95% accuracy** and **ROC-AUC 0.99**; visualized results with **confusion matrices**, **ROC curves**, and **feature importance**; exported model with `joblib`.
+- Built a **Random Forest classifier** on the Breast Cancer Wisconsin dataset; performed **EDA and preprocessing**, and compared against a **Logistic Regression baseline**. Achieved **95% accuracy** and **ROC-AUC 0.95**; visualized results with **confusion matrices**, **ROC curves**, and **feature importance**; exported model with `joblib`.
 
 ---
