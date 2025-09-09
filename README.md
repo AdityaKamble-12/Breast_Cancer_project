@@ -59,9 +59,3 @@ Python, pandas, scikit-learn, matplotlib, joblib
 - `breast_cancer_rf.pkl` (Random Forest)
 - `breast_cancer_logreg.pkl` (Logistic Regression)
 - `scaler.pkl` (StandardScaler for preprocessing)
-- This README was auto-generated on: 2025-09-08 18:58:08
-
-## Resume Bullet (Paste this)
-- Built a **Random Forest classifier** on the Breast Cancer Wisconsin dataset; performed **EDA and preprocessing**, and compared against a **Logistic Regression baseline**. Achieved **95% accuracy** and **ROC-AUC 0.95**; visualized results with **confusion matrices**, **ROC curves**, and **feature importance**; exported model with `joblib`.
-
----
